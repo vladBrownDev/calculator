@@ -1,0 +1,26 @@
+#calcBody {
+  width: 300px;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9e895a64-920e-44ed-bda5-483a45530e6f/dctng3o-748ad66e-2366-4aba-9e94-b99c2c934f9b.jpg/v1/fill/w_1024,h_1024,q_75,strp/_stock__silver_metal_texture_by_oabookcovers_dctng3o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzllODk1YTY0LTkyMGUtNDRlZC1iZGE1LTQ4M2E0NTUzMGU2ZlwvZGN0bmczby03NDhhZDY2ZS0yMzY2LTRhYmEtOWU5NC1iOTljMmM5MzRmOWIuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.t3lLJVCRbnmDYAgbDYbsOinhgALhU-0pRZMXtclC8RE);
+}
+#calcBody #calcInp {
+  width: 87%;
+  height: 10%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+#calcBody #calcButtons {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  grid-template-rows: 100px 100px 100px 100px;
+}
+#calcBody #calcButtons button {
+  width: 50px;
+  height: 50px;
+}
