@@ -345,10 +345,25 @@ document.addEventListener("keydown", event => {
             }
     }
     if(key == "=" ) {
-        result()
+        let doubleCheck = document.querySelector("#calcInp").innerText.split("")
+        let dcLength = doubleCheck.length - 1
+        if(isNaN(+doubleCheck[dcLength])) {
+            return
+        }
+        else {
+            result()
+        }
+        
     }
     else if(key == "Enter") {
-        result()
+        let doubleCheck = document.querySelector("#calcInp").innerText.split("")
+        let dcLength = doubleCheck.length - 1
+        if(isNaN(+doubleCheck[dcLength])) {
+            return
+        }
+        else {
+            result()
+        }
     }
     if(key == "Backspace") {
         document.querySelector("#calcInp").innerText = ""
